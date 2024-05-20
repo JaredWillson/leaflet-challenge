@@ -51,7 +51,7 @@ function createFeatures(earthquakeData) {
     }
   
     // Create a GeoJSON layer that contains the features array on the earthquakeData object.
-    // Run the onEachFeature function once for each event in the array.
+    // Run the onEachFeature function once for each event in the dataset.
     var earthquakes = L.geoJSON(earthquakeData, {
         onEachFeature: onEachFeatureFn,
         style: style,
