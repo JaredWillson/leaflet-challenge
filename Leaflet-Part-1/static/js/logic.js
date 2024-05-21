@@ -3,6 +3,7 @@
 const allDay = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
 const allWeek = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 const mFourPlusWeek = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson'
+const mFourPlusMonth = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson'
 
 
 // Now we will grab our dataset and assign it to the "data" variable
